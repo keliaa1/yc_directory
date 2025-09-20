@@ -7,14 +7,14 @@ import { redirect } from "next/dist/server/api-utils";
 const Navbar = async () => {
   const session = await auth();
   return (
-    <header className="px-5 py-[0px] bg-white shadow-sm font-work-sans">
+    <header className=" px-5 py-3 bg-white shadow-sm font-work-sans">
       <nav className="flex justify-between items-center">
         <Link href="/">
           <Image
-            src="/vercel.svg"
+            src="/logo.png"
             alt="Vercel Logo"
-            width={144}
-            height={10}
+            width={140}
+            height={30}
           ></Image>
         </Link>
 
